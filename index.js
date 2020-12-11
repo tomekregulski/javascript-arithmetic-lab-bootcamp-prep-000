@@ -4,4 +4,10 @@ function add5() {
   number += 5
 }
 
-number
+function divideBy3()
+
+console.log(number)
+
+add5()
+
+console.log(number)
