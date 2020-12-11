@@ -25,3 +25,11 @@ console.log(number)
 divideBy3()
 
 console.log(number)
+
+function increments() {
+  number++
+}
+
+function decrements() {
+  number--
+}
