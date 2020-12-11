@@ -1,25 +1,31 @@
-var number = 10
-
-function add() {
-  number += 5
+function add(a, b) {
+  return a += b
 }
 
-function divideBy3() {
-  number /= 3
+function subtract(a, b) {
+  return a -= b
 }
 
-function increments() {
-  number++
+function multiply(a, b) {
+  return a *= b
 }
 
-function decrements() {
-  number--
+function divide(a, b) {
+  return a /= b
 }
 
-function makeInt(string) {
-  parseInt(string, 10)
+function increments(Number) {
+  return n++
 }
 
-function preserveDecimal(string) {
+function decrements(n) {
+  return n--
+}
+
+function makeInt(n) {
+  parseInt(n, 10)
+}
+
+function preserveDecimal(n) {
   parseFloat(string)
 }
